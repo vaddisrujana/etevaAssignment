@@ -1,0 +1,42 @@
+.img {
+  height: 50vh;
+}
+.title1 {
+  color: green;
+  font-size: 20px;
+}
+.price1 {
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+}
+.product-details-background {
+  text-align: center;
+}
+.addCart {
+  background-color: limegreen;
+  color: #ffffff;
+  border-width: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.back-button {
+  background-color: limegreen;
+  color: #ffffff;
+  border-width: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .img {
+    height: 30vh;
+  }
+  .product-details-background {
+    text-align: center;
+    padding: 10px;
+  }
+}
